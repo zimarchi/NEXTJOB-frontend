@@ -5,6 +5,6 @@ export type Candidat = {
     has_profile: boolean;
     date: string;
     // In TypeScript, this is called a string union type.
-    status: `À l'écoute du marché` | `En recherche active`;
+    status: `À l'écoute du marché` | `En recherche active` | `Test`;
   };
   
