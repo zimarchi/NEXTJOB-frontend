@@ -5,10 +5,11 @@ import { usePathname } from "next/navigation";
 export default function Recruteurs() {
 
   const pathname = usePathname()
+  const pathTitle= pathname[1].toUpperCase() + pathname.slice(2);
 
   return (
     <>
-      <h1>{pathname}</h1>
+      <h1>Espace {pathTitle}</h1>
     </>
   );
 }
