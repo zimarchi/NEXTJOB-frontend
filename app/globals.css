@@ -1,6 +1,6 @@
 /* Varibales pour le light mode */
 :root {
-  --background: #d0d375;
+  --background: #ffffff;
   --foreground: #000000;
   --button-hover: green;
   /* Exemples d'utilisation de variables imbriquées */
@@ -20,7 +20,7 @@
 
 }
 
-/* Forcer une règle sur l'intégralité du document avec le selecteur universel
+/* Forcer une règle sur l'intégralité du document avec le selecteur universel *
 * {
   background-color: aqua;
 }

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import TopMenu from "./ui/topMenu/topMenu";
+import Footer from "./ui/footer/footer";
 
 export const metadata: Metadata = {
   title: "NextJob",
@@ -10,7 +12,9 @@ export default function RootLayout ({ children }: Readonly < { children: React.R
   return (
     <html lang="en">
       <body>
+        <TopMenu/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

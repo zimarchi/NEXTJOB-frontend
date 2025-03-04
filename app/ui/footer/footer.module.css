@@ -1,0 +1,6 @@
+.footer {
+    display: flex;
+    padding: 20 0 20 00;
+    border: 1px solid black;
+    /*position: relative;*/ /* Utiliser seulement dans le cas ou la props fill est utilisée dans le composant Image */
+  }
